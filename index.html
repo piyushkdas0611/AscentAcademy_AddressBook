@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AscentAcademy_AddressBook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="navigation">
+            <nav class="nav-bar">
+                <ul>
+                    <li id="js-show-all">Show all Contacts</li>
+                    <li id="js-search">Search</li>
+                    <li id="js-add-new">Add New Contacts</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="search-panel" class="panel panel1">
+            <h1>Search Contacts</h1>
+            <form id="search" action="#">
+                <div id="results">
+
+                </div>
+                <div>
+                    <label>
+                        <input type="text" name="search" id="search" placeholder="Enter name of contact" />
+                    </label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="contact-panel" class="panel panel2">
+            <form id="contact" action="#">
+                <h1>Add a new contact</h1>
+                <div>
+                    <label>
+                        <input type="text" name="person" id="name" placeholder="Enter name..." />
+                    </label>
+                    <label>
+                        <input type="text" name="phone" id="name" placeholder="Contact no..." />
+                    </label>
+                    <label>
+                        <input type="text" name="email" id="name" placeholder="Email Id..." />
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div id="show-panel" class="panel">
+        </div>
+    </div>
+    <footer>Coded By Piyush Kumar Das</footer>
+    <script src="script.js"></script>
+</body>
+</html>
